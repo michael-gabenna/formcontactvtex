@@ -1,0 +1,178 @@
+body,
+form,
+fieldset,
+input,
+select,
+option,
+textarea,
+p,
+a,
+div,
+section,
+header,
+footer{
+    margin:0;
+    padding:0;
+    border:0;
+    text-decoration:none;
+    list-style:none;
+}
+.fullFormContact{
+    width:80%;
+    max-width:600px;
+    min-width:320px;
+    margin:0 auto;
+}
+.error{
+    color:#FFFFFF !important;
+    background-color:#FFABAB !important;
+    border-color:#FFCBD6 !important;
+}
+form#formContactV1{
+    margin:0 0 80px;
+}
+.formContactVtex label.error {
+    background-color:#FFFFFF !important;
+    color:#D72A27 !important;
+}
+.formContactVtex #contentAlert{
+    width:100%;
+    padding:20px 0;
+    margin:0 auto 20px;
+    border-radius:3px;
+    color:#848484;
+    font-size:12px;
+    margin:18px 0;
+    text-align:center;
+    display:none;
+    /* bootstrap colors*/
+    color:#0C75AC;
+    background-color:#CCEEFF;
+    border:1px solid #A2EEFF;
+}
+.formContactVtex #contentAlert strong{
+    font-weight:700;
+    font-size:15px;
+    text-align:center;
+    /*color:#FF0000;*/
+    text-transform:uppercase;
+    margin:0 auto 10px;
+    display:block;
+}
+.formContactVtex #contentAlert p{
+	font-weight:400 !important;
+	font-size:14px !important;
+}
+.formContactVtex #contentAlert img{
+    max-width:40px;
+    margin:10px auto 0;
+    display:block;
+}
+.formContactVtex div{
+    margin:0 0 15px;
+    font-family:arial;
+}
+.formContactVtex div i {
+    width:calc(100% - 20px);
+    padding:5px 10px;
+    position:absolute;
+    left:0;
+    top:0;
+    text-align:right;
+    display:block;
+}
+.formContactVtex h2{
+    font-family:arial;
+    text-transform:uppercase;
+    font-size:17px;
+    color:#363636;
+    margin:60px 0 30px;
+    text-align:center;
+    display:block;
+}
+.formContactVtex label{
+    width:calc(100% - 2px);
+    font-size:11px;
+    color:#797979;
+    margin:0 0 5px;
+    padding:5px 0;
+    background:#F7F7F7;
+    display:block;
+    margin:0 0 1px 0;
+    border-radius:3px 3px 0 0;
+    border-left:1px solid #DCDCDC;
+    border-top:1px solid #DCDCDC;
+    border-right:1px solid #DCDCDC;
+    font-size:11px;
+    z-index:1;
+    text-transform:uppercase;
+    text-indent:10px;
+    position:relative;
+}
+.formContactVtex input,
+.formContactVtex select,
+.formContactVtex textarea{
+    width:calc(100% - 2px);
+    padding:10px 0;
+    border:1px solid #DCDCDC;
+    text-indent:10px;
+    margin:-2px 0 0 0;
+    border-radius:0 0 3px 3px;
+    transition:all 0.4s;
+    outline:none;
+    display:block;
+}
+.formContactVtex input:focus,
+.formContactVtex select:focus,
+.formContactVtex textarea:focus{
+    background:#E0E0E0;
+}
+.formContactVtex select{
+    /*width:100%;*/
+}
+.formContactVtex textarea{
+    height:100px;
+    text-indent:0;
+    padding:0 !important;
+    padding:10px;
+    resize:vertical;
+}
+.formContactVtex input[type="submit"]{
+    width:50%;
+    min-width:320px;
+    background:#5CB85C;
+    text-transform:uppercase;
+    margin:0 auto;
+    border:1px solid #4CAE4C;
+    color:#FFFFFF;
+    font-weight:700;
+    font-size:15px;
+    border-radius:3px;
+    border-bottom:4px solid #47A947;
+    cursor:pointer;
+    display:block;
+}
+.formContactVtex input[type="submit"]:hover{
+    background:#47A947;
+    border-color:#339833;
+}
+.formContactVtex input[type="submit"]:disabled{
+    background:#A7A7A7 !important;
+    border:1px solid #9A9A9A !important;
+    border-bottom:4px solid #797979 !important;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.box50{
+    width:49.5%;
+}
+.box100{
+    width:100%;
+}
+.clear{
+    clear:both;
+}

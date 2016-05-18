@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/formContactVtex_v01.css"/>
+    <!-- add scripts vtex here -->
+</head>
+<body>
+
+    <!-- newform -->
+    <div class="fullFormContact">
+        <form class="formContactVtex" id="formContactV1">
+            <fieldset>
+                <h2>
+                    Fale conosco
+                </h2>
+                <div class="box50 left">
+                    <label for="cl_first_name">
+                        Nome
+                        <i title="Campo requerido">*</i>
+                    </label>
+                    <input type="text" id="cl_first_name" name="cl_first_name" data-required="true"/>
+                </div>
+                <div class="box50 right">
+                    <label for="cl_last_name">
+                        Sobrenome
+                        <i title="Campo requerido">*</i>
+                    </label>
+                    <input type="text" id="cl_last_name" name="cl_last_name" data-required="true"/>
+                </div>
+                <div class="box100 clear">
+                    <label for="cl_email">
+                        E-mail
+                        <i title="Campo requerido">*</i>
+                    </label>
+                    <input type="text" id="cl_email" class="valEmail" name="cl_email"/>
+                </div>
+                <div class="box50 left">
+                    <label for="cl_home_phone">
+                        Telefone
+                        <i title="Campo requerido">*</i>
+                    </label>
+                    <input type="text" id="cl_home_phone" class="phoneMask" name="cl_home_phone" data-required="true"/>
+                </div>
+                <div class="box50 right">
+                    <label for="cl_phone">
+                        Celular
+                    </label>
+                    <input type="text" id="cl_phone" class="phoneMask" name="cl_phone"/>
+                </div>
+                <div class="box100 clear">
+                    <label for="co_type">
+                        Assunto
+                        <i title="Campo requerido">*</i>
+                    </label>
+                    <select name="co_type" id="co_type" data-required="true">
+                        <option value="">Selecione</option>
+                        <option value="Sugestão">Sugestão</option>
+                        <option value="Dúvida">Dúvida</option>
+                        <option value="Reclamação">Reclamação</option>
+                    </select>
+                </div>
+                <div class="box100">
+                    <label for="co_description">
+                        Mensagem
+                        <i title="Campo requerido">*</i>
+                    </label>
+                    <textarea name="co_description" id="co_description" data-required="true" data-alert="Digite a sua Mensagem"></textarea>
+                </div>
+                <input type="submit" class="sendContactVtex" data-form="#formContactV1" value="Enviar"/>
+            </fieldset>
+            <div id="contentAlert"></div>
+        </form>
+    </div>
+    <!-- newform -->
+
+    <script src="js/jquery-1.11.3.js"></script> <!-- remove [jquery-1.11.3] in vtex -->
+    <script src="js/jquery.mask.js"></script>
+    <script src="js/formContactVtex_v01.js"></script>
+</body>
+</html>
