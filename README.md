@@ -9,12 +9,6 @@ Foi alterada de forma para ser trabalhada modularmente (JSoo) Js Module
 
 * Created 18/05/2016
 
-#### Config
-
-    //information generic message error
-    contactPhone    : '<p>Telefones: (00) 0000-0000 ou 0800 000 0000<p> ' // line: 54
-    contactEmail    : '<p>Emails: sac@loja.com ou contato@loja.com.br<p>' // line: 55
-
 #### Requires
 - jQuery any version
 - jQuery.mask // https://igorescobar.github.io/jQuery-Mask-Plugin/
