@@ -24,6 +24,10 @@ Foi alterada de forma para ser trabalhada modularmente (JSoo) Js Module
 - Adonis Vieira - Analist Front End
 - http://wizardfly.com.br
 - [Equip. developers]
+
+-
+
+
 - [TOPDEALS - Negócios e Ideias]
 - http://topdeals.com.br
 
